@@ -1,26 +1,15 @@
-# Laboratorio de APIs: REST y SODA
-**Estudiante:** Javier Infante  
-**Institución:** Universidad Simón Bolívar - Ingeniería de Sistemas
+1. API REST (Rick & Morty)
+Se utiliza la arquitectura REST para obtener información de un recurso específico mediante su identificador único.
 
-## Descripción
-Este proyecto consiste en una aplicación web que consume dos tipos de arquitecturas de APIs:
-1. **API REST:** Consumo de la API de Rick and Morty para obtener recursos individuales.
-2. **API SODA:** Consumo del portal de Datos Abiertos de Colombia (datos.gov.co) usando el protocolo Socrata y consultas SoQL.
+Endpoint: https://rickandmortyapi.com/api/character/{id}
 
-## Capturas de Pantalla
-### Interfaz Principal
-![Interfaz Principal](URL_DE_TU_FOTO_1)
-*Descripción: Vista de las dos secciones de la aplicación.*
+Captura: <img width="611" height="581" alt="image" src="https://github.com/user-attachments/assets/8679b2be-6888-470f-8975-886068b4275f" />
 
-### Consulta API REST
-![Consulta REST](URL_DE_TU_FOTO_2)
-*Descripción: Resultado de traer un personaje aleatorio mediante un endpoint RESTful.*
 
-### Consulta API SODA
-![Consulta SODA](URL_DE_TU_FOTO_3)
-*Descripción: Datos gubernamentales filtrados mediante parámetros de consulta ($limit).*
+2. API SODA (Datos Abiertos Colombia)
+Se realiza una consulta al portal datos.gov.co utilizando el protocolo SODA. A diferencia de REST, aquí se aplican filtros de consulta (SoQL) directamente en la URL para limitar los resultados.
 
-## Tecnologías Usadas
-- **HTML5/CSS3:** Estructura y diseño responsivo (Grid/Flexbox).
-- **JavaScript (ES6):** Uso de `fetch`, `async/await` y manipulación del DOM.
-- **SODA/SoQL:** Para el filtrado de datos abiertos.
+Endpoint: https://www.datos.gov.co/resource/p6dx-8zbt.json?$limit=3
+
+Captura:<img width="644" height="343" alt="image" src="https://github.com/user-attachments/assets/138f7cd7-163e-4b13-9804-e40eccb16e2c" />
+
