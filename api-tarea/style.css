@@ -1,0 +1,5 @@
+body { font-family: sans-serif; text-align: center; background: #f0f0f0; padding: 20px; }
+.box { background: white; margin: 20px auto; padding: 20px; max-width: 500px; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+button { background: #007bff; color: white; border: none; padding: 10px; border-radius: 5px; cursor: pointer; width: 100%; }
+pre { text-align: left; background: #222; color: #0f0; padding: 10px; border-radius: 5px; font-size: 12px; max-height: 200px; overflow: auto; margin-top: 10px; }
+img { width: 100px; border-radius: 50%; margin: 10px; }
